@@ -11,7 +11,12 @@
 <img width="1127" alt="screen shot 2018-05-18 at 10 47 07 am" src="https://user-images.githubusercontent.com/23295769/40217157-e59d4812-5a88-11e8-8f9f-dc7ab0d04930.png">
 
 
-## Run Application
+## Run Polling Application
+Goal on this application is to display party count based on incoming data, were incoming data is party and candidate name.
+
+Example: 
+<img width="991" alt="screen shot 2018-05-18 at 11 04 09 am" src="https://user-images.githubusercontent.com/23295769/40217597-41f62f50-5a8b-11e8-9254-76bf55e70dc4.png">
+
 ### To run Polling application follow below steps
 
 - Create "national_election_count_input" and "national_election_count_output" Topic on Kafka, using below commands
