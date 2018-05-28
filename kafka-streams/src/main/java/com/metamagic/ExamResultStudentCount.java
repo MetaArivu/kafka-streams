@@ -18,6 +18,16 @@ import java.util.Properties;
 //sh kafconsole-producer.sh --broker-list localhost:9093 --topic stud_count_input
 //sh kafka-console-consumer.sh --bootstrap-server localhost:9093 --topic stud_count_output --from-beginning --formatter kafka.tools.DefaultMessageFormatter --property print.key=true --property print.value=true --property key.deserializer=org.apache.kafka.common.serialization.StringDeserializer --property value.deserializer=org.apache.kafka.common.serialization.StringDeserializer
 
+//Sample data to be enter on producer
+//1,Job, Maths,80
+//1,Job, Physics,87
+//1,Job, Chem,90
+//1,John, Maths,90
+//1,John, Physics,0
+//1,John, Chem,90
+
+// Above input will declare Job is passed but not john.
+
 public class ExamResultStudentCount {
 
 
